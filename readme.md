@@ -1,6 +1,6 @@
 # TranslatableBootForms
 
-TranslatableBootForms is a Laravel 4 package built on top of adamwathan/bootforms and dimsav/laravel-translatable, it enable form model binding on translated fields.
+TranslatableBootForms is a Laravel 4 package built on top of [BootForms](https://github.com/adamwathan/bootforms) and [Laravel Translatable](https://github.com/dimsav/laravel-translatable), it enable form model binding on translated fields.
 
 ## Installing with Composer
 

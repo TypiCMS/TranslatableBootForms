@@ -1,0 +1,27 @@
+{
+    "name": "typicms/translatablebootforms",
+    "description": "Form model binding for translated fields, use BootForms and Translatable.",
+    "keywords": ["Laravel", "FormBuilder", "BootForm", "Translatable", "TypiCMS"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Samuel De Backer",
+            "email": "sdebacker@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*",
+        "adamwathan/bootforms": "~0.4.1",
+        "dimsav/laravel-translatable": "~4.3"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-4": {
+            "TypiCMS\\TranslatableBootForms\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}

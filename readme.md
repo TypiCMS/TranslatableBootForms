@@ -12,7 +12,7 @@ You can install this package via Composer by including the following in your `co
 }
 ```
 
-### Installation in Laravel 4
+## Installation in Laravel 4
 
 Modify the `providers` array in `app/config/app.php` to include the `BootFormsServiceProvider`:
 
@@ -41,7 +41,7 @@ You can now start using BootForms by calling methods directly on the `BootForm` 
 BootForm::text('title', 'en[title]')
 ```
 
-### Laravel-Translatable and BootForm docs
+## Laravel-Translatable and BootForm docs
 
 **BootForm**  
 https://github.com/adamwathan/bootforms  

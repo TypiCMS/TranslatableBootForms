@@ -41,9 +41,9 @@ You can now start using BootForms by calling methods directly on the `BootForm` 
 BootForm::text('title', 'en[title]')
 ```
 
-## Laravel-Translatable and BootForm docs
+## Documentation
 
-**BootForm**  
+**BootForms**  
 https://github.com/adamwathan/bootforms  
-**aravel-Translatable**  
+**Laravel-Translatable**  
 https://github.com/dimsav/laravel-translatable

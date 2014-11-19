@@ -38,7 +38,7 @@ Add the `BootForm` and `Translatable` facades to the `aliases` array in `app/con
 You can now start using BootForms by calling methods directly on the `BootForm` facade:
 
 ```php
-BootForm::text('title', 'en[title]') }}
+BootForm::text('title', 'en[title]')
 ```
 
 ### Laravel-Translatable and BootForm docs

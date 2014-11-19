@@ -16,9 +16,6 @@
         "dimsav/laravel-translatable": "~4.3"
     },
     "autoload": {
-        "classmap": [
-            "src/migrations"
-        ],
         "psr-4": {
             "TypiCMS\\TranslatableBootForms\\": "src/"
         }

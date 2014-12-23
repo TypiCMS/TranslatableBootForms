@@ -8,7 +8,7 @@ You can install this package via Composer by including the following in your `co
 
 ```json
 "require": {
-    "typicms/translatablebootforms": "~1.0.0"
+    "typicms/translatablebootforms": "~1.1.0"
 }
 ```
 

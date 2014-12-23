@@ -13,7 +13,7 @@
         "php": ">=5.4.0",
         "illuminate/support": "4.2.*",
         "adamwathan/bootforms": "~0.4.1",
-        "dimsav/laravel-translatable": "~4.3"
+        "dimsav/laravel-translatable": "~4.4.0"
     },
     "autoload": {
         "psr-4": {

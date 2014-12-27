@@ -36,7 +36,7 @@ class TranslatableFormBuilder extends FormBuilder
         $array = preg_split('/[\[\]]+/', $name, -1, PREG_SPLIT_NO_EMPTY);
         if (count($array) == 2 and in_array($array[0], Config::get('translatable::config.locales'))) {
             list($lang, $name) = $array;
-            $value = $this->model->translate($lang)->{$name};
+            $value = isset($this->model->translate($lang)->{$name}) ? $this->model->translate($lang)->{$name} : '' ;
             return $this->escapeQuotes($value);
         }
         return $this->escapeQuotes($this->model->{$name});

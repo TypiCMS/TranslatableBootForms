@@ -11,14 +11,14 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "illuminate/support": "4.2.*",
         "adamwathan/bootforms": "~0.4.1",
-        "dimsav/laravel-translatable": "~4.4.0"
+        "dimsav/laravel-translatable": "dev-master"
     },
     "autoload": {
         "psr-4": {
             "TypiCMS\\TranslatableBootForms\\": "src/"
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }

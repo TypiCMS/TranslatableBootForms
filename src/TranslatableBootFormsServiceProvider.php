@@ -2,7 +2,6 @@
 namespace TypiCMS\TranslatableBootForms;
 
 use AdamWathan\BootForms\BootFormsServiceProvider;
-use Illuminate\Support\ServiceProvider;
 
 class TranslatableBootFormsServiceProvider extends BootFormsServiceProvider {
 

@@ -4,12 +4,10 @@ TranslatableBootForms is a Laravel 4 package built on top of [BootForms](https:/
 
 ## Installing with Composer
 
-You can install this package via Composer by including the following in your `composer.json`:
+You can install this package via Composer with this command:
 
-```json
-"require": {
-    "typicms/translatablebootforms": "~1.1.0"
-}
+```
+composer require typicms/translatablebootforms
 ```
 
 ## Installation in Laravel 4

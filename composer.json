@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "adamwathan/bootforms": "~0.4.1",
+        "adamwathan/bootforms": "~0.4.2",
         "dimsav/laravel-translatable": "~5.0.0"
     },
     "autoload": {

@@ -27,7 +27,7 @@ class TranslatableFormBuilder extends FormBuilder
 
     /**
      * Getting value from Model or ModelTranslation to populate form
-     * 
+     *
      * @param  string $name key
      * @return string       value
      */

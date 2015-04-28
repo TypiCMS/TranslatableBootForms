@@ -12,7 +12,7 @@ class TranslatableFormBuilder extends FormBuilder
         $this->model = is_array($model) ? (object) $model : $model;
     }
 
-    protected function getValueFor($name)
+    public function getValueFor($name)
     {
         return parent::getValueFor($name);
     }

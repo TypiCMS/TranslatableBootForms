@@ -37,8 +37,8 @@ class TranslatableFormBuilder extends FormBuilder
         if (count($array) == 2 and in_array($array[0], Config::get('translatable.locales'))) {
             list($lang, $name) = $array;
             $value = isset($this->model->translate($lang)->{$name}) ? $this->model->translate($lang)->{$name} : '' ;
-            return $this->escapeQuotes($value);
+            return $this->escape($value);
         }
-        return $this->escapeQuotes($this->model->{$name});
+        return $this->escape($this->model->{$name});
     }
 }

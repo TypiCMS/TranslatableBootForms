@@ -19,7 +19,7 @@ class TranslatableFormBuilder extends FormBuilder
 
     protected function hasModelValue($name)
     {
-        if (! isset($this->model)) {
+        if (!isset($this->model)) {
             return false;
         }
         return isset($this->model->{$name}) || method_exists($this->model, '__get');

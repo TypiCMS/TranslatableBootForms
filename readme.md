@@ -1,6 +1,6 @@
 # TranslatableBootForms
 
-TranslatableBootForms is a Laravel 4 package built on top of [BootForms](https://github.com/adamwathan/bootforms) and [Laravel Translatable](https://github.com/dimsav/laravel-translatable), it enable form model binding on translated fields.
+TranslatableBootForms is a Laravel package built on top of [BootForms](https://github.com/adamwathan/bootforms) and [Laravel Translatable](https://github.com/dimsav/laravel-translatable), it enables form model binding on translated fields.
 
 ## Installing with Composer
 
@@ -10,27 +10,27 @@ You can install this package via Composer with this command:
 composer require typicms/translatablebootforms
 ```
 
-## Installation in Laravel 4
+## Installation in Laravel
 
-Modify the `providers` array in `app/config/app.php` to include the `BootFormsServiceProvider`:
+Modify the `providers` array in `config/app.php` to include the service provider:
 
 ```php
-'providers' => array(
+'providers' => [
     //…
-    'TypiCMS\TranslatableBootForms\TranslatableBootFormsServiceProvider'
-),
+    TypiCMS\TranslatableBootForms\TranslatableBootFormsServiceProvider::class,
+],
 ```
 
 Run ```composer update```
 
-Add the `BootForm` and `Translatable` facades to the `aliases` array in `app/config/app.php:
+Add the `BootForm` and `Translatable` facades to the `aliases` array in `config/app.php:
 
 ```php
-'aliases' => array(
+'aliases' => [
     //…
-    'BootForm' => 'AdamWathan\BootForms\Facades\BootForm'
-    'Translatable' => 'Dimsav\Translatable\Translatable',
-),
+    'BootForm' => AdamWathan\BootForms\Facades\BootForm::class,
+    'Translatable' => Dimsav\Translatable\Translatable::class,
+],
 ```
 
 You can now start using BootForms by calling methods directly on the `BootForm` facade:

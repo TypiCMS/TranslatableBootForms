@@ -12,7 +12,7 @@
     "require": {
         "php": ">=5.4.0",
         "adamwathan/bootforms": "~0.7.0",
-        "dimsav/laravel-translatable": "~5.2.0"
+        "dimsav/laravel-translatable": "~5.4.0"
     },
     "autoload": {
         "psr-4": {

@@ -1,6 +1,6 @@
 # TranslatableBootForms
 
-TypiCMS now use [Laravel-Translatable-Bootforms](https://github.com/Propaganistas/Laravel-Translatable-Bootforms)
+Instead of this package, next version of TypiCMS will probably use [Laravel-Translatable-Bootforms](https://github.com/Propaganistas/Laravel-Translatable-Bootforms)
 
 TranslatableBootForms is a Laravel package built on top of [BootForms](https://github.com/adamwathan/bootforms) and [Laravel Translatable](https://github.com/dimsav/laravel-translatable), it enables form model binding on translated fields.
 
